@@ -8,3 +8,5 @@ Projekti
 	EDIT: Igra bingo (razvoj)
 	Iwashere (spletni portal)
 	Nakit & Ure (spletna trgovina)
+
+Glej google keep: JOB HUNT & SRC-backend-coding-challenge
