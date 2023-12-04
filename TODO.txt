@@ -1,25 +1,4 @@
-angleščina
-doktroska disertacija: naslov + link
-magistsrka: naslov + link
-članki
-konference
-link do cobissa
-tekmovanja
-projekti
-	android app guide2music + bike-drive
-delovne izkušnje:
-	daljše: EMG, pedagoško delo, MATLAB, python
-	4-5 alinej kar sem počel
-veščine:
-	dodaj iz linkedin
-
-Raziskovalni interesi
-	Obdelava biomedicinskih signalov s poudarkom na elektromiografiji
-	Strojno učenje
-
 Projekti
-	PKP: Guide2Music (Android aplikacija obogatene resničnosti)
-	PKP: Električno kolo (R & D)
 	EDIT: Igra bingo (razvoj)
 	Iwashere (spletni portal)
 	Nakit & Ure (spletna trgovina)
