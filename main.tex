@@ -1,71 +1,91 @@
 \documentclass{article}
+
+\usepackage[colorlinks]{hyperref}
+
 \usepackage{bubblecv}
 
 \begin{document}
 
+\begin{cv}[avatar]{Aljaž Frančič, PhD}{Computer Programmer\\\small{Born March 1, 1993}}
 
-\begin{cv}[avatar]{James Bond}{Secret Agent}
 
+%\cvsection[summary]{Profile}  %-----------------------------------------------------------
 
-\cvsection[summary]{Profile}  %-----------------------------------------------------------
-
-Highly skilled secret agent with a license to kill. 
-Bringing together outstanding combat and intelligence abilities with a charismatic and persuasive personality. 
-A dedicated and adaptable professional committed to global security.
-
+%Highly skilled secret agent with a license to kill. 
+%Bringing together outstanding combat and intelligence abilities with a charismatic and persuasive personality. 
+%A dedicated and adaptable professional committed to global security.
 
 \cvsection[work]{Work experience}  %------------------------------------------------------
 
-\begin{cvevent}[1962][present]
-    \cvname{Secret Agent}
-    \cvdescription{MI6 Intelligence Agency, London}
+\begin{cvevent}[2018][2022]
+    \cvname{Young Researcher, Teaching Assistant}
+    \cvdescription{System Software Laboratory, \newline
+    Faculty of Electrical Engineering and Computer Science, \newline
+    University of Maribor}
     \begin{itemize}
-        \item Covert intelligence operations for national security.
-        \item Infiltration from high-risk environments.
-        \item Utilization of advanced espionage techniques and gadgets.
-        \item Surveillance, analysis, and threat prevention.
+        \item Biomedical signal processing with focus on electromyography \newline (MATLAB, R, LaTeX)
+        \item Machine learning (Python, NumPy, Matplotlib, TensorFlow, Keras)
+        \item Computer vision (Python, NumPy, OpenCV)
+        \item \href{https://bib.cobiss.net/bibliographies/si/webBiblio/bib201_20231204_183141_52032.html}{Bibliography (COBISS)} 
     \end{itemize}
 \end{cvevent}
 
 
 \cvsection[education]{Education}  %------------------------------------------------------
 
-\begin{cvevent}[1958][1962]
-    \cvname{Intelligence Academy}
-    \cvdescription{MI6 Training Facility, London}
-    \textbf{Courses and Achievements:}
+\begin{cvevent}[2012][2023]
+    \cvname{University of Maribor}
+    \cvdescription{Faculty of Electrical Engineering and Computer Science}
     \begin{itemize}
-        \item Mastered advanced techniques for discreetly gathering intelligence and conducting covert operations.
-        \item Trained extensively in planning and executing covert operations and infiltrating high-security areas.
-        \item Received rigorous combat training in martial arts, firearms handling, and tactical skills.
-        \item Proficient in surveillance methods, counter-surveillance techniques, and analyzing gathered intelligence.
+        \item 2023: PhD, Computer Science and Informatics \newline
+            Doctoral dissertation: \href{https://dk.um.si/IzpisGradiva.php?id=84908}{Software pipeline for computationally efficient and robust estimation of motor unit firing times from high density surface electromyograms}
+        \item 2018: Master’s degree, Computer Science and Information Technologies \newline
+            Thesis: \href{https://dk.um.si/IzpisGradiva.php?id=71712}{Robot control with a neural network and a muscle-machine interface}
+        \item 2015: : Erasmus+ student exchange at Tampere University, Finland
+        \item 2015: Bachelor’s degree, Computer Science and Information Technologies (UN) \newline
+            Thesis: \href{https://dk.um.si/IzpisGradiva.php?id=48527}{Automatic mouth detection from digital images by using active models}
     \end{itemize}
 \end{cvevent}
 
+\begin{cvevent}[2008][2012]
+    \cvname{II. gimnazija Maribor}
+    \cvdescription{The National Grammar School Programme}
+        \begin{itemize}
+            \item Zois scholarship recepient
+        \end{itemize}
+\end{cvevent}
 
-\cvsection[target]{Missions}  %----------------------------------------------------------
 
-\begin{cvevent}[2002]
-    \cvname{Die Another Day}
-    Uncovered a North Korean general's plan to use a satellite weapon to create a war between North and South Korea.
+\cvsection[target]{Projects highlights}  %----------------------------------------------------------
+
+\begin{cvevent}
+    \cvname{\href{https://github.com/aljazfrancic/stonks-bot}{stonks-bot}}
+    Discord bot that pulls the prices for user-defined coins from CoinGecko for a user-defined number of last days and displays them in a plot in a relative manner (Python, NumPy, Matplotlib, Discord API, AWS)
 \end{cvevent}
 
 \cvseparator[2]
-\begin{cvevent}[1999]
-    \cvname{The World Is Not Enough}
-    Protected an oil heiress from a terrorist plotting to exploit her family's resources and trigger a global meltdown.
+\begin{cvevent}
+    \cvname{\href{https://github.com/aljazfrancic/8d-audio-homebrew}{8d-audio-homebrew}}
+    Jupyter notebook that converts a regular wav file into an 8d audio wav file (Python, NumPy, Matplotlib)
+
 \end{cvevent}
 
 \cvseparator[2]
-\begin{cvevent}[1997]
-    \cvname{Tomorrow Never Dies}
-    Investigated a media mogul's plot to provoke a war between the UK and China for increased ratings and power.
+\begin{cvevent}
+    \cvname{\href{https://guidetwomusic.wordpress.com/predstavitev-aplikacije-guide2music/}{Guide2Music}}
+    Android mobile application – interactive musical landmarks guide to Slovenian musical attractions using augmented reality (C\#, Unity)
 \end{cvevent}
 
 \cvseparator[2]
-\begin{cvevent}[1995]
-    \cvname{GoldenEye}
-    Prevented the use of the GoldenEye satellite weapon system by a rogue agent to cause global financial chaos.
+\begin{cvevent}
+    \cvname{sudoku-solver}
+   Computer vision solution that finds a sudoku puzzle in a photo, extracts the puzzle grid, recognizes the numbers in the grid, finds the solution to the puzzle and projects it onto the original photo (Python, OpenCV)
+\end{cvevent}
+
+\cvseparator[2]
+\begin{cvevent}
+    \cvname{BIKE-DRIVE}
+    Research and development of an electric bike
 \end{cvevent}
 
 
@@ -76,81 +96,131 @@ A dedicated and adaptable professional committed to global security.
 
 \begin{cvitem}[Envelope][4]
     \textbf{Email}\\
-    \href{mailto:james.bond@mi6.gov}{\texttt{james.bond@mi6.gov}}
+    \href{mailto:aljaz.francic@gmail.com}{\texttt{aljaz.francic@gmail.com}}
 \end{cvitem}
 
 \cvseparator[3]
 \begin{cvitem}[Phone][4]
     \textbf{Phone}\\
-    \href{tel:+442071234567}{\texttt{+44 207 123 4567}}
+    \href{tel:+442071234567}{\texttt{+386 51 410 170}}
 \end{cvitem}
 
 \cvseparator[3]
 \begin{cvitem}[Home][4]
     \textbf{Address}\\
-    MI6 Headquarters\\ London, United Kingdom
+    Ješenca 6d\\ 2327 Rače \\ Slovenia
 \end{cvitem}
 
 \cvseparator[3]
 \begin{cvitem}[Globe][4]
-    \textbf{Website}\\
-    \href{https://www.mi6.gov.uk}{\texttt{www.mi6.gov.uk}}
+     \textbf{Links}\\
+     \href{https://github.com/aljazfrancic}{GitHub}\\
+     \href{https://www.linkedin.com/in/aljaz-francic}{LinkedIn}
 \end{cvitem}
 
 
 \cvsection[skills]{Skills}  %-----------------------------------------------------------
 
 \begin{cvitem}
-    Espionage Techniques
+    Python
 \end{cvitem}
-
-\cvseparator
+    
 \begin{cvitem}
-    Surveillance
+    C\#
 \end{cvitem}
-
-\cvseparator
+    
 \begin{cvitem}
-    Combat Training
+    C/C++
 \end{cvitem}
 
-\cvseparator
 \begin{cvitem}
-    Infiltration
+    Java
 \end{cvitem}
 
-\cvseparator
 \begin{cvitem}
-    Problem Solving
+    MATLAB
 \end{cvitem}
 
-\cvseparator
 \begin{cvitem}
-    Effective Communication
+    R
 \end{cvitem}
 
-\cvseparator
 \begin{cvitem}
-    Adaptability
+    LaTeX
 \end{cvitem}
 
-\cvseparator
 \begin{cvitem}
-    Teamwork
+    Git
 \end{cvitem}
 
+\begin{cvitem}
+    Bash
+\end{cvitem}
+
+\begin{cvitem}
+    Regex
+\end{cvitem}
+
+\begin{cvitem}
+    JavaScript
+\end{cvitem}
+
+\begin{cvitem}
+    HTML
+\end{cvitem}
+
+\begin{cvitem}
+    CSS
+\end{cvitem}
+
+\begin{cvitem}
+    MySQL
+\end{cvitem}
+
+\begin{cvitem}
+    AWS
+\end{cvitem}
+
+\begin{cvitem}
+    Heroku
+\end{cvitem}
+
+\begin{cvitem}
+    Myo
+\end{cvitem}
+
+\begin{cvitem}
+    Oculus
+\end{cvitem}
+
+\begin{cvitem}
+    Kinect
+\end{cvitem}
+
+\begin{cvitem}
+    Adobe Photoshop
+\end{cvitem}
+
+\begin{cvitem}
+    Microsoft Office
+\end{cvitem}
 
 \cvsection[languages]{Languages}  %--------------------------------------------------------
 
-\cvskill{English}{Fluent}{1.0}
-\cvskill{French}{Intermediate}{0.6}
-\cvskill{Russian}{Basic}{0.3}
+\begin{cvitem}
+    English (fluent)
+\end{cvitem}
 
+\begin{cvitem}
+    Slovenian (native)
+\end{cvitem}
+
+\cvsection[hobbies]{Hobbies}  %--------------------------------------------------------
+Walking, jogging, swimming, Magic the Gathering (trading card game), Old School RuneScape (videogame)
+
+\cvsection[threedots]{Other}  %--------------------------------------------------------
+Easy-going, I like challenges, creative, I’ve been programming since 2009
 
 \end{cv}
-
-\cvfootnote{
-    \tiny I agree to the processing of personal data provided in this document for realizing the recruitment process pursuant to the Personal Data Protection Act of 10 May 2018 (Journal of Laws 2018, item 1000) and in agreement with Regulation (EU) 2016/679 of the European Parliament and of the Council of 27 April 2016 on the protection of natural persons with regard to the processing of personal data and on the free movement of such data, and repealing Directive 95/46/EC (General Data Protection Regulation)
-}
 
 \end{document}
