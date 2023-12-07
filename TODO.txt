@@ -1,4 +1,7 @@
 Projekti
+	SUDOKU SOLVER LINK
 	EDIT: Igra bingo (razvoj)
 	Iwashere (spletni portal)
 	Nakit & Ure (spletna trgovina)
+
+Zois scholarship
