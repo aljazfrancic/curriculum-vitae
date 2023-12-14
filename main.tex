@@ -1,6 +1,11 @@
 \documentclass{article}
 
+\usepackage{xcolor}
 \usepackage[colorlinks]{hyperref}
+
+\hypersetup{
+  urlcolor=orange
+}
 
 \usepackage{bubblecv}
 
@@ -78,7 +83,7 @@
 
 \cvseparator[2]
 \begin{cvevent}
-    \cvname{sudoku-solver}
+    \cvname{\href{https://github.com/aljazfrancic/sudoku-solver}{sudoku-solver}}
    Computer vision solution that finds a sudoku puzzle in a photo, extracts the puzzle grid, recognizes the numbers in the grid, finds the solution to the puzzle and projects it onto the original photo (Python, OpenCV)
 \end{cvevent}
 
