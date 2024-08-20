@@ -1,4 +1,16 @@
-Projekti
-	EDIT: Igra bingo (razvoj)
-	Iwashere (spletni portal)
-	Nakit & Ure (spletna trgovina)
+Keywords:
+    GitHub Actions
+    Continous Integration/Continous Deployment
+    Data Acquistion
+    Digital Signal Processing
+    Software Testing
+    Scrum
+    Markdown
+    (CMake)
+    Diligent
+Fix:
+    Add months to Work Experience
+Projects (not mentioned):
+    EDIT: Igra bingo (razvoj)
+    Iwashere (spletni portal)
+    Nakit & Ure (spletna trgovina)
