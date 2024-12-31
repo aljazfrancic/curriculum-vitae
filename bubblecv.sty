@@ -5,7 +5,7 @@
 %----------------------------------------------------------------------------------------
 % CV SCALE
 %----------------------------------------------------------------------------------------
-\newcommand\cvscale{1}
+\newcommand\cvscale{0.95}
 
 %----------------------------------------------------------------------------------------
 % FONT
@@ -36,7 +36,7 @@
 %----------------------------------------------------------------------------------------
 % TIMELINE
 %----------------------------------------------------------------------------------------
-\newcommand\cvtimelineoffset{20}
+\newcommand\cvtimelineoffset{25}
 \newcommand\cvtimelinewidth{0.5}
 
 %----------------------------------------------------------------------------------------
@@ -52,7 +52,7 @@
 \newcommand\cveventdatewidth{16}
 \newcommand\cveventbubbleradius{3}
 \newcommand\cveventbubbleborderwidth{1}
-
+\newcommand\cveventbottommargin{2}
 %----------------------------------------------------------------------------------------
 % SIDEBAR
 %----------------------------------------------------------------------------------------
@@ -335,6 +335,7 @@
         \begin{minipage}[t]{\linewidth}%
             #3%
         \end{minipage}%
+        \vspace{\cveventbottommargin mm}
         \par%
     }{%
         \PackageError{\packagename}{The cvevent can be used only in the main column}{}%
